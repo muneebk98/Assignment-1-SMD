@@ -1,9 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Chatify" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.Chatify" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FBC02D</item>
+        <!-- If you're using Material 3 and Material Components, ensure you include material3 styles as needed -->
     </style>
 
-    <style name="Theme.Chatify" parent="Base.Theme.Chatify" />
+    <style name="Theme.Chatify" parent="Base.Theme.Chatify">
+        <!-- Additional theme customization goes here -->
+    </style>
 </resources>
